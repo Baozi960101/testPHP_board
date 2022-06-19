@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    background-color:beige;
+}
+
+*{
+    box-sizing: border-box;
+}
+/* 所有元素都下 */
+
+.warning{
+    color: black;
+    background-color: pink;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.err{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.board{
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.board__nickname{
+    margin-bottom: 10px;
+}
+
+.board__nickname input{
+    border: 1px solid #c2dffb;
+}
+
+.board__comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c2dffb;
+}
+
+.board__submit{
+    padding: 10px;
+    border: 1px solid #c2dffb;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: white;
+    width: 80px;
+}
+
+.board__hr{
+    width: 100%;
+    height: 2px;
+    background-color: #e8e8e8;
+    margin: 30px auto;
+}
+
+.card{
+    width: 100%;
+    padding: 10px 0;
+    min-height: 70px;
+    display: flex;
+}
+
+.card_avatar{
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    background-color: #e4f0fb;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card_body{
+    padding-left: 20px;
+}
+
+.card__content{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    word-break: break-all;
+    white-space:pre-wrap;
+}
+
+.card__auther{
+    color: blue;
+    font-weight: bold;
+}
+
+.card__time{
+    margin-left: 5px;
+    color: gray;
+}
+
+.border__btn{
+    padding: 10px 30px;
+    border: 1px solid #c2dffb;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 80px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.border__btn ~ .border__btn{
+    margin-left: 20px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.margin_top{
+    margin-top: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+.update__btn{
+    padding: 5px 10px;
+    border: 1px solid #c2dffb;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 80px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+}
+
+.page_info{
+    text-align: center;
+}
+
+.page_btn{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.page_btn a{
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-top: 20px;
+}
